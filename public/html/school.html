@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>School</title>
+    <script src="../js/libraries/headroom.min.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>School</h1>
+      <div class="header_nav">
+        <ul class="nav">
+          <li class="nav_item"><a href="../index.html" class="nav_item_link">Home</a></li>
+          <li class="nav_item" id="active_nav_item"><a href="../html/school.html" class="nav_item_link">School</a></li>
+          <li class="nav_item"><a href="../html/code.html" class="nav_item_link">Code</a></li>
+          <li class="nav_item"><a href="../html/piano.html" class="nav_item_link">Piano</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="card" style="background-color: #FFC107;">
+      <a href="english.html" style="display:block; text-decoration:none; color:black">
+        <h3 style="text-align:center">Preliminary Advanced English</h3>
+        <p style="text-align:center"><i><br> Learing a language <br> is to understand others <br> and to form connections </i></p>
+      </a>
+    </div>
+    <div class="card" style="background-color: #FFC107;">
+      <a href="dnt.html" style="display:block; text-decoration:none; color:black">
+        <h3 style="text-align:center">Design and Technology</h3>
+        <p style="text-align:center"> <br><i>“Design is not just what it looks like and feels like. Design is how it works.”</i> <br> Steve Jobs</p>
+      </a>
+    </div>
+
+    <div class="card" style="background-color: #FFC107;">
+      <a href="maths.html" style="display:block; text-decoration:none; color:black">
+        <h3 style="text-align:center">HSC Advanced Maths</h3>
+        <p style="text-align:center"> <br><i>“Maths gives us hope <br> that every problem has a solution”</i></p>
+      </a>
+    </div>
+
+
+    <script type="text/javascript">
+      var myElement = document.querySelector("header");
+      var headroom  = new Headroom(myElement);
+      headroom.init();
+    </script>
+  </body>
+</html>

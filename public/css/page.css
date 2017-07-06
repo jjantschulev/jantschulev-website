@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 26px;
+}
+
+h1 {
+  color: #FFC107;
+  font-size: 4vmin;
+  text-align: center;
+}
+
+.header {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40%;
+  background-color: #FFC107;
+}
+
+.page {
+  position: relative;
+  width: 90%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  padding: 20px 50px 20px 50px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px #4f4f4f;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header {
+    visibility: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40%;
+    background-color: #FFC107;
+  }
+  .page {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 0;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 50px 20px 50px;
+    background-color: white;
+    border-width: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 10px #4f4f4f;
+  }
+}

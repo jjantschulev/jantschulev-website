@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jordan Jantschulev</title>
+    <script src="js/libraries/headroom.min.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+
+    <style media="screen">
+    #frohe_weihnachten {
+      background-image:url('files/imgs/frohe_weih_div_back.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Jordan Jantschulev</h1>
+      <div class="header_nav">
+        <ul class="nav">
+          <li class="nav_item" id="active_nav_item"><a href="index.html" class="nav_item_link">Home</a></li>
+          <li class="nav_item"><a href="html/school.html" class="nav_item_link">School</a></li>
+          <li class="nav_item"><a href="html/code.html" class="nav_item_link">Code</a></li>
+          <li class="nav_item"><a href="html/piano.html" class="nav_item_link">Piano</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="card">
+      <h3>Hello World</h3>
+      <p>Welcome to my Website</p>
+      <p>Coding Project of the Week: <a href="kraken/kraken.html" style="text-decoration:none"><span style="color:#3F51B5"><b>Kraken Chat</b></span></a> <i> Check it out down below --> </i></p>
+      <p>Also Listen to Milli Skyjum for a relaxing break</p>
+    </div>
+
+    <div class="card" style="background-color: black;">
+      <a href="http://jantschulev.ddns.net:10001" style="display:block; text-decoration:none; color:rgb(63, 255, 53)">
+        <h3 style="text-align:center">Kraken Chat</h3>
+        <p style="text-align:center"> <br>
+          $ <span style="color:red">Kraken</span>:<i> The Kraken Has Awoken</i> </p>
+      </a>
+    </div>
+
+    <div class="card" id="frohe_weihnachten">
+      <h3>Milli Skyjum</h3>
+      <audio src="../files/audio/milli_skyjum.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+      <p>Hear more in the piano section</p>
+    </div>
+
+
+    <script type="text/javascript">
+      var myElement = document.querySelector("header");
+      var headroom  = new Headroom(myElement);
+      headroom.init();
+    </script>
+  </body>
+</html>

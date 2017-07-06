@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piano</title>
+    <script src="../js/libraries/headroom.min.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <style media="screen">
+      #frohe_weihnachten {
+        background-image: url('../files/imgs/frohe_weih_div_back.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        color: white;
+      }
+      #hsc_comp {
+        background-image:url('../files/imgs/hsc_comp_div_back.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Piano</h1>
+      <div class="header_nav">
+        <ul class="nav">
+          <li class="nav_item"><a href="../index.html" class="nav_item_link">Home</a></li>
+          <li class="nav_item"><a href="../html/school.html" class="nav_item_link">School</a></li>
+          <li class="nav_item"><a href="../html/code.html" class="nav_item_link">Code</a></li>
+          <li class="nav_item" id="active_nav_item"><a href="../html/piano.html" class="nav_item_link">Piano</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div style="background-color:#3F51B5; color:white" class="card">
+      <h3>Hello World</h3>
+      <p>My Compositions: <i>Enjoy!</i></p>
+    </div>
+
+    <div class="card" id="frohe_weihnachten">
+      <h3>Frohe Weihnachten</h3>
+      <p>Christmas Swing</p>
+      <audio src="../files/audio/christmas_swing.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+      <p>Milli Skyjum</p>
+      <audio src="../files/audio/milli_skyjum.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+      <p>Schein oder Sein</p>
+      <audio src="../files/audio/schein_oder_sein.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+      <p>Jazz Inn</p>
+      <audio src="../files/audio/the_jazz_inn.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+      <p>Dream Byron</p>
+      <audio src="../files/audio/dream_byron.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+
+    </div>
+
+    <div class="card" id="hsc_comp">
+      <h3>HSC Composition</h3>
+      <p>Jazz Inn</p>
+      <audio src="../files/audio/hsc_comp.mp3" controls>
+        Your browser dows not support mp3 Audio playback. Please use latest version of Chrome.
+      </audio>
+    </div>
+
+    <div class="card" style="background-color:black">
+      <h3 style="color:white">Bach in Dresden</h3>
+      <iframe width="100%" height="550px" style="border:none;"
+      src="https://www.youtube.com/embed/6ey86OqqPr4">
+      </iframe>
+    </div>
+
+    <div class="card" style="background-color:black">
+      <h3 style="color:white">Yann Tiersen</h3>
+      <iframe width="100%" height="550px" style="border:none;"
+      src="https://www.youtube.com/embed/eYmlZPZ_yWw">
+      </iframe>
+    </div>
+
+
+    <script type="text/javascript">
+      var myElement = document.querySelector("header");
+      var headroom  = new Headroom(myElement);
+      headroom.init();
+    </script>
+  </body>
+</html>

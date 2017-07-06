@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245,245,245);
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #FFC107;
+  font-size: 50px;
+  text-align: center;
+  margin: 40px;
+}
+
+.card {
+
+  position: relative;
+  display: block;
+  width: 80%;
+  max-width: 1000px;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px 50px 20px 50px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+li {
+  margin: 20px 0;
+  list-style-type: none;
+}
